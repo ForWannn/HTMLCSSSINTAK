@@ -1,0 +1,234 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* background:linear-gradient(rgba(0, 0,0 ,0.8), rgba(0, 0, 0, 0.8)), url(IMAGES/BG.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Logo */
+.landing .logo .col img{
+    width: 80px;
+    border-radius: 50%;
+    margin-left: 20px;
+    padding: 7px 0px 7px 10px;
+}
+
+.landing .logo{
+    display: flex;
+}
+
+.landing .logo .text{
+    align-items: center;
+    margin-left: 20px;
+    padding: 10px 0px 10px 0px;
+}
+
+.landing .logo .text p{
+    font-size: 10px;
+    letter-spacing: 3.5px;
+    margin-top: 0px;
+    color: #00b7ea;
+}
+
+.landing .logo .text h2{
+    margin-bottom: 0px;
+    color:#007ec4;
+}
+/* Logo */
+/* Vic Apps */
+
+.landing .container .teks-bg{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+.landing .container .teks-bg .Vic-Apps{
+    border: 2px solid #007ec4;
+    padding: 10px 20px;
+    background-color: #007ec4;
+    color: white;
+    border-radius: 10px;
+    transition-duration: 0.2s;
+}
+
+.landing .container .teks-bg .Vic-Apps:hover{
+    filter:drop-shadow(0px 0px 15px rgba(0,126,196,0.3));
+}
+
+.landing .container .teks-color{
+    display: flex;
+    justify-content: space-around;
+}
+
+.landing .container .teks-color .Victorian, .Owner, .Location, .Contact{
+    max-width: 250px;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #fff;
+    filter: drop-shadow(0px 0px 7px rgba(0, 0, 0, 0.2));
+}
+
+.landing .container .teks-color .Victorian h4,
+.Owner h4,
+.Location h4,
+.Contact h4{
+    margin-bottom: 5px;
+    /* color: #007ec4; */
+}
+
+.landing .container .teks-color .Victorian h4,
+.landing .container .teks-color .Victorian p{
+    color: red;
+}
+
+.landing .container .teks-color .Owner h4,
+.landing .container .teks-color .Owner p{
+    color: yellow;
+}
+.landing .container .teks-color .Location h4,
+.landing .container .teks-color .Location p{
+    color: green;
+}
+.landing .container .teks-color .Contact h4,
+.landing .container .teks-color .Contact p,
+.landing .container .teks-color .Contact a{
+    color: blue;
+}
+
+.landing .container .teks-color .Contact .garis-foot{
+    margin-bottom: 10px;
+}
+
+.landing .container .teks-color .Contact a, p{
+    text-decoration: none;
+}
+
+.landing .container .teks-color .Contact p{
+    margin-bottom: 0;
+}
+
+.landing .container .teks-color .garis-foot{
+    width: 230px;
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 1px;
+}
+
+/* Vic Apps */
+/* Gambar */
+.landing .visit{
+    margin-top: 70px;
+}
+
+.landing .visit .gambar{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.landing .visit h2{
+    text-decoration: underline;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.landing .visit .hover{
+    text-align: center;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.3);
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.landing .visit .gambar img{
+    width: 200px;
+    border-radius: 10px;
+    margin: 2px 6px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.4);
+    filter: grayscale(50);
+    transition-duration: 0.4s;
+}
+
+.landing .visit .gambar img:hover{
+    filter: grayscale(0);
+}
+
+.landing .visit .gambar .teks h5{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    justify-content:center;
+    text-align: center;
+    color: #007ec4;
+}
+
+.landing .visit .gambar .img{
+    max-width: 250px;
+}
+
+.landing .visit .gambar .img .teks{
+    justify-content: center;
+    /* margin: auto; */
+
+}
+
+.landing .visit .gambar .img .teks p{
+    padding: 0px 15px;
+    font-size: 12px;
+    /* color: #00b7ea; */
+}
+/* Gambar */
+
+/* Footer */
+.landing footer .footer{
+    display: flex;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.landing footer .footer .logo .foto img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.landing footer .footer .logo .vic-footer{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.landing footer .footer .logo .vic-footer h2{
+    margin-bottom: 0;
+    color: #007ec4;
+}
+
+.landing footer .footer .logo .vic-footer p{
+    margin-top: 0;
+    color: #00b7ea;
+}
+
+.landing footer .footer .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.landing footer .footer .null{
+    content: "";
+    height: 100px;
+    width: 800px;
+}
+
+.landing footer .footer .alamat{
+    max-width: 300px;
+}
+
+.landing footer .footer .alamat p{
+    font-size: 13px;
+}
+/* Footer */
